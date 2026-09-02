@@ -1,0 +1,90 @@
+# ==============================
+# Python
+# ==============================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# ==============================
+# PySpark / Spark
+# ==============================
+
+.sparkStaging/
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Spark event logs
+*.inprogress
+eventLog/
+
+# ==============================
+# Data
+# ==============================
+
+# Raw datasets
+data/raw/
+
+# Generated Bronze/Silver/Gold data
+data/bronze/
+data/silver/
+data/gold/
+
+# Local data files
+*.csv
+*.json
+*.parquet
+*.orc
+*.avro
+
+# ==============================
+# Logs
+# ==============================
+
+logs/
+*.log
+
+# ==============================
+# Jupyter
+# ==============================
+
+.ipynb_checkpoints/
+
+# ==============================
+# VS Code
+# ==============================
+
+.vscode/
+
+# ==============================
+# Environment / Secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
+
+# ==============================
+# OS files
+# ==============================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Temporary files
+# ==============================
+
+*.tmp
+*.temp
+*.swp
+*.swo
